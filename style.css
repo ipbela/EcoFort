@@ -616,9 +616,13 @@ footer{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 300px) {
     .folha-opacity{
         visibility: hidden;
+    }
+
+    .menu-icon{
+        margin-left: 200px;
     }
 
     .logo img {
@@ -651,13 +655,18 @@ footer{
     }
 
     .servicos{
-        margin-top: -110%;
+        margin-top: -160%;
         font-size: 0.6rem;
     }
 
+    .servicos-title{
+        margin-left: 90px;
+    }
 
     .servicos-img{
         margin-top: 10px;
+        width: 380px;
+        margin-left: 20px;
     }
 
     .image {
@@ -670,15 +679,17 @@ footer{
 
     .title-use {
         font-size: 1.2rem;
-        margin-top: 2rem;
+        margin-top: -10px;
     }
 
     .bg {
         height: 40vh;
+        width: 410px;
     }
-
+    
     .use img {
         height: 40vh;
+        width: 410px;
     }
 
     .subtitle-use {
@@ -691,6 +702,10 @@ footer{
         padding: 1rem 0.5rem;
     }
 
+    .infos{
+        width: 400px;
+    }
+
     .info-title {
         font-size: 1.2rem;
     }
@@ -700,7 +715,11 @@ footer{
     }
 
     .buttons-shop {
-        width: 100%;
+        width: 390px;
+    }
+
+    .about{
+        width: 400px;
     }
 
     .about-title {
@@ -711,8 +730,13 @@ footer{
         font-size: 0.8rem;
     }
 
+    .avaliations{
+        width: 400px;
+    }
+
     .avaliations-title {
         font-size: 1.4rem;
+        padding: 0 2rem;
     }
 
     .avaliations .cards{
@@ -720,7 +744,7 @@ footer{
     }
 
     .avaliations .card {
-        height: 330px;
+        height: 500px;
         margin-bottom: 30px;
     }
 
@@ -733,8 +757,8 @@ footer{
     form{
         display: block;
         margin-top: -100px;
-        width: 90%;
-        margin-left: -60px;
+        width: 380px;
+        margin-left: -80px;
     }
 
     .inputs{
@@ -767,6 +791,7 @@ footer{
 
     footer {
         margin-top: 50rem;
+        width: 400px;
     }
 
     .footer-title {
