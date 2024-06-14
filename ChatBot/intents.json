@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "oi",
+        "ola",
+        "tem alguem aqui?", 
+        "eai",
+        "o que voce faz?",
+        "obrigado",
+        "obrigada",
+        "como utilizar o produto?",
+        "como eu utilizo o produto?",
+        "aonde eu posso utilizar?",
+        "onde eu posso utilizar?",
+        "quais são os produtos?",
+        "como é feito o adubo?",
+        "whatsapp",
+        "youtube",
+        "instagram",
+        "endereço"
+      ],
+      "responses": [
+        "Oi, como posso te ajudar?",
+        "Olá, como posso te ajudar?",
+        "Olá, eu sou a assistente virtual da EcoFort, precisa de ajuda?",
+        "Olá! Em que posso ajudar?",
+        "Eu sou a assistente virtual da EcoFort. Consigo te ajudar com relação ao serviços da empresa, como utilizar o adubo, dados de contato, entre outras questões. Com o que eu posso te ajudar no momento? ",
+        "Qualquer dúvida estou a disposição",
+        "Qualquer dúvida estou a disposição",
+        "Espalhe uma camada uniforme do adubo sobre a superfície do solo, em torno das plantas ou na área desejada, utilizando aproximadamente 100-200 gramas por metro quadrado. Em seguida, misture levemente o adubo com a camada superficial do solo usando um ancinho ou enxada, garantindo que ele esteja bem incorporado. Regue a área tratada para ativar os nutrientes e permitir que eles penetrem no solo.",
+        "Espalhe uma camada uniforme do adubo sobre a superfície do solo, em torno das plantas ou na área desejada, utilizando aproximadamente 100-200 gramas por metro quadrado. Em seguida, misture levemente o adubo com a camada superficial do solo usando um ancinho ou enxada, garantindo que ele esteja bem incorporado. Regue a área tratada para ativar os nutrientes e permitir que eles penetrem no solo.",
+        "Utilize este adubo sustentável em jardins, hortas, vasos e em qualquer espaço verde que necessite de um impulso nutritivo, garantindo um crescimento saudável e vigoroso das suas plantas de forma ecológica e responsável.",
+        "Utilize este adubo sustentável em jardins, hortas, vasos e em qualquer espaço verde que necessite de um impulso nutritivo, garantindo um crescimento saudável e vigoroso das suas plantas de forma ecológica e responsável.",
+        "Adubo Sustentável de 25kg e 50kg",
+        "Nosso adubo é feito a partir de lodo tratado, rico em nutrientes. Ideal para solo e plantas, promove crescimento saudável e sustentabilidade ambiental.",
+        "+55 19 99999-9999",
+        "Eco Fort",
+        "Eco Fort",
+        "Rua das Flores, 35. Hortolândia, SP 11111-111"
+      ]
+    }
+  ]
+}

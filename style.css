@@ -1,0 +1,1006 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --branco: #fafafa;
+    --verde: #34520D;
+    --verde-claro: #80b43b;
+    --preto: #282828;
+    --cinza: #CBCBCB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+  }
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: var(--branco);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right: 100px;
+    font-size: 14px;
+}
+
+.nav-links a {
+    color: var(--preto);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--verde-claro);
+}
+
+.nav-links img {
+    margin-top: -12px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--verde);
+    margin: 4px 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    margin-left: 20%;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 20%;
+}
+
+.welcome-text-green {
+    color: var(--verde);
+}
+
+.items {
+    display: flex;
+    margin-top: -80px;
+    gap: 10px;
+}
+
+.subtitle {
+    margin-left: 20%;
+    font-size: 1.4rem;
+    width: 60%;
+    margin-top: -50px;
+    color: var(--preto);
+}
+
+.green {
+    color: var(--verde);
+    font-weight: 800;
+}
+
+.btn-shop {
+    margin-left: 20%;
+    border-radius: 10px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 12px 22px;
+    border: 1px solid var(--verde);
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-shop:hover {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    scale: 1.01;
+}
+
+.image img {
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.folha-opacity {
+    margin-top: -10%;
+}
+
+.servicos {
+    text-align: center;
+}
+
+.servicos-title {
+    margin-top: -8%;
+}
+
+.servicos-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.use {
+    margin-top: 10rem;
+    position: relative;
+}
+
+
+.bg {
+    background-color: #34520D;
+    width: 100%;
+    height: 64vh;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.95;
+    text-align: center;
+    color: var(--branco);
+}
+
+.title-use{
+    font-size: 2.4rem;
+    padding: 3.5rem 0;
+    margin-top: 5rem;
+}
+
+.subtitle-use{
+    font-size: 1.2rem;
+    padding: 0 6rem;
+}
+
+.use img {
+    position: relative;
+    z-index: 1;
+}
+
+.products {
+    margin-top: 3rem;
+    padding: 8rem 15rem;
+    display: flex;
+    gap: 8rem;
+}
+
+.infos {
+    margin-top: 4rem;
+}
+
+.info-title {
+    font-size: 3rem;
+}
+
+.info-subtitle {
+    font-size: 1.4rem;
+}
+
+.buttons-shop {
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.shop {
+    border-radius: 10px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 12px 22px;
+    border: 1px solid var(--verde);
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.shop:hover {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    scale: 1.01;
+}
+
+.choice{
+    border-radius: 10px;
+    color: var(--branco);
+    background-color: var(--cinza);
+    padding: 12px 20px;
+    border: 1px solid var(--cinza);
+    font-size: 14px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.choice option{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-weight: 600;
+}
+
+.about{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.about-title, .about-subtitle, .cards{
+    padding: 0 10rem;
+}
+
+.about-title{
+    margin-top: 5rem;
+}
+
+.about-subtitle{
+    font-size: 1.4rem;
+}
+
+.cards{
+    margin-top: 5rem;
+}
+
+.card-green{
+    background-color: var(--verde);
+    color: var(--branco);
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    padding: 2rem;
+}
+
+.card-subtitle-g{
+    font-size: 1.2rem;
+}
+
+.card-white{
+    background-color: var(--branco);
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+
+.card-subtitle-w{
+    font-size: 1.2rem;
+}
+
+.card-title-g, .card-title-w{
+    text-transform: uppercase;
+}
+
+.avaliations{
+    margin-top: 10rem;
+}
+
+.avaliations img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.avaliations-title{
+    color: var(--verde);
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.avaliations .cards{
+    display: flex;
+    gap: 5rem;
+}
+
+.avaliations .card{
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    height: 420px;
+    font-size: 1.2rem;
+}
+
+.avaliations .cards .card img{
+    width: 10%;
+    height: 10%;
+    padding: 2rem 0 0 2rem;
+}
+
+.comentary{
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.contact{
+    margin-top: 10rem;
+    position: relative;
+}
+
+form{
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    display: flex;
+    width: 90%;
+    z-index: 2;
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    background-color: var(--branco);
+}
+
+.contact img{
+    position: relative;
+    z-index: 1;
+}
+
+.inputs{
+    padding: 3rem 10rem;
+    width: 80%;
+}
+
+.form-title{
+    color: var(--verde);
+    font-size: 2.6rem;
+}
+
+.inp{
+    width: 100%;
+    padding: 10px 16px;
+    background-color: var(--cinza);
+    border: 1px solid var(--cinza);
+    margin-bottom: 0.6rem;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.inp-larger{
+    width: 100%;
+    height: 30vh;
+    padding: 10px 16px;
+    background-color: var(--cinza);
+    border: 1px solid var(--cinza);
+    margin-bottom: 0.6rem;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-weight: 500; 
+    font-family: "Inter", sans-serif;
+}
+
+.btn-contact{
+    border-radius: 10px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 12px 22px;
+    border: 1px solid var(--verde);
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.btn-contact:hover{
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    scale: 1.01;
+}
+
+.social-medias{
+    padding: 12rem 10rem;
+    width: 40%;
+    margin-left: -5%;
+}
+
+.link{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.link img{
+    width: 14%;
+    height: 14%;
+    margin-top: 6px;
+}
+
+.info{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+footer{
+    background-color: var(--preto);
+    margin-top: 10rem;
+    text-align: center;
+    color: var(--branco);
+    padding: 0.1rem 0;
+}
+
+.footer-title{
+    font-size: 2.4rem;
+}
+
+.footer-subtitle{
+    font-size: 0.6rem;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1400px){
+    .bg{
+        height: 52vh;
+    }
+
+    .title-use{
+        margin-top: 1rem;
+    }
+
+    .avaliations .card{
+        height: 460px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .folha-opacity{
+        visibility: hidden;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: var(--branco);
+    }
+
+    .nav-links a {
+        text-align: center;
+        padding: 1rem;
+        border-top: 1px solid var(--verde-claro);
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .btn-shop {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+    .servicos {
+        margin-top: -50%;
+    }
+
+    .servicos-title{
+        margin-top: 4rem;
+    }
+
+    .title-use {
+        font-size: 1.4rem;
+    }
+
+    .bg {
+        height: 50vh;
+    }
+
+    .use img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .subtitle-use {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .products {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .info-title {
+        font-size: 1.4rem;
+    }
+
+    .info-subtitle {
+        font-size: 1rem;
+    }
+
+    .buttons-shop {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .shop,
+    .choice {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-title,
+    .about-subtitle,
+    .cards {
+        padding: 0 1rem;
+    }
+
+    .avaliations .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: 500px;
+    }
+
+    .avaliations .cards .card img{
+        width: 8%;
+        height: 4%;
+        padding: 2rem 0 0 2rem;
+    }
+
+    form {
+        width: 90%;
+        margin: 0 auto 0 -40px;
+    }
+
+    .inputs{
+        margin: 0;
+        padding: 3rem 3rem;
+    }
+
+    .inp,
+    .inp-larger {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-img{
+        visibility: hidden;
+    }
+
+    .social-medias{
+        justify-content: left;
+    }
+
+    .btn-contact {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    footer{
+        margin-top: 30rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .folha-opacity{
+        visibility: hidden;
+    }
+
+    .logo img {
+        width: 80px;
+        margin-left: 30px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .welcome-text-green{
+        margin-top: 4rem;
+    }
+
+    .items img{
+        width: 50px;
+        height: 50px;
+        margin-top: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
+        margin-top: -20px;
+    }
+
+    .btn-shop {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .servicos{
+        margin-top: -110%;
+        font-size: 0.6rem;
+    }
+
+
+    .servicos-img{
+        margin-top: 10px;
+    }
+
+    .image {
+        margin: 0;
+    }
+
+    .use {
+        margin-top: 2rem;
+    }
+
+    .title-use {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .bg {
+        height: 40vh;
+    }
+
+    .use img {
+        height: 40vh;
+    }
+
+    .subtitle-use {
+        font-size: 0.6rem;
+        padding: 0 2rem;
+        margin-top: -50px;
+    }
+
+    .products {
+        padding: 1rem 0.5rem;
+    }
+
+    .info-title {
+        font-size: 1.2rem;
+    }
+
+    .info-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .buttons-shop {
+        width: 100%;
+    }
+
+    .about-title {
+        font-size: 1.4rem;
+    }
+
+    .about-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .avaliations-title {
+        font-size: 1.4rem;
+    }
+
+    .avaliations .cards{
+        display: block;
+    }
+
+    .avaliations .card {
+        height: 330px;
+        margin-bottom: 30px;
+    }
+
+    .avaliations .cards .card img{
+        width: 8%;
+        height: 8%;
+        padding: 2rem 0 0 2rem;
+    }
+
+    form{
+        display: block;
+        margin-top: -100px;
+        width: 90%;
+        margin-left: -60px;
+    }
+
+    .inputs{
+        padding: 2rem 1.5rem;
+    }
+
+    .form-title {
+        font-size: 1.4rem;
+    }
+
+    .inp,
+    .inp-larger {
+        font-size: 0.7rem;
+    }
+
+    .btn-contact {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .social-medias{
+        margin: 30px;
+        width: 100%;
+    }
+
+    .link img{
+        width: 6%;
+        margin-top: 10px;
+    }
+
+    footer {
+        margin-top: 50rem;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+    }
+
+    .footer-subtitle {
+        font-size: 0.5rem;
+    }
+
+    .social-medias{
+        padding: 0;
+        text-align: justify;
+    }
+
+    .link{
+        justify-content: left;
+        margin-top: 2rem;
+    }
+}
+
+/* CHAT BOT */
+
+.chatbot-toggler {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--verde);
+    transition: all 0.2s ease;
+    z-index: 3;
+  }
+  
+  body.show-chatbot .chatbot-toggler {
+    transform: rotate(90deg);
+  }
+  
+  .chatbot-toggler span {
+    color: #fff;
+    position: absolute;
+  }
+  
+  .chatbot-toggler span:last-child,
+  body.show-chatbot .chatbot-toggler span:first-child  {
+    opacity: 0;
+  }
+  
+  body.show-chatbot .chatbot-toggler span:last-child {
+    opacity: 1;
+  }
+  
+  .chatbot {
+    position: fixed;
+    right: 35px;
+    bottom: 90px;
+    width: 420px;
+    height: 730px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);    
+    transform-origin: bottom right;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+    transition: all 0.1s ease;
+    z-index: 3;
+  }
+  
+  body.show-chatbot .chatbot {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+  
+  .chatbot header {
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: var(--verde);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .chatbot header span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    display: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  header h2 {
+    font-size: 1.4rem;
+    margin-left: 30px;
+  }
+  
+  .chatbot .chatbox {
+    overflow-y: auto;
+    height: 510px;
+    padding: 30px 20px 100px;
+    margin-top: -10px;
+  }
+  
+  .chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 25px;
+  }
+  
+  .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+  }
+  
+  .chatbox .chat {
+    display: flex;
+    list-style: none;
+  }
+  
+  .chatbox .outgoing {
+    margin: 30px 0;
+    justify-content: flex-end;
+  }
+  
+  .chatbox .incoming img {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    line-height: 32px;
+    align-self: flex-end;
+    border-radius: 4px;
+    margin: 0 10px 7px 0;
+  }
+  
+  .chatbox .chat p {
+    white-space: pre-wrap;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px;
+    max-width: 75%;
+    color: #fff;
+    font-size: 0.95rem;
+    background: var(--verde);
+  }
+  
+  .chatbox .incoming p {
+    border-radius: 10px 10px 10px 0;
+  }
+  
+  .chatbox .chat p.error {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  
+  .chatbox .incoming p {
+    color: #000;
+    background: #f2f2f2;
+  }
+  
+  .chatbot .chat-input {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 3px 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    max-height: 180px;
+    padding: 15px 15px 15px 0;
+    font-size: 0.95rem;
+    height: 2vh;
+  }
+
+  .chat-input textarea:focus{
+    height: 2vh;
+  }
+  
+  .chat-input span {
+    align-self: flex-end;
+    color: #e84a4a;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    font-size: 1.35rem;
+    margin-right: 40px;
+  }
+  
+  .chat-input textarea:valid ~ span {
+    visibility: visible;
+  }
+  
+  @media (max-width: 490px) {
+    .chatbot-toggler {
+      right: 20px;
+      bottom: 20px;
+    }
+  
+    .chatbot {
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      border-radius: 0;
+      width: 100%;
+    }
+    .chatbot .chatbox {
+      height: 90%;
+      padding: 25px 15px 100px;
+    }
+    .chatbot .chat-input {
+      padding: 5px 15px;
+    }
+    .chatbot header span {
+      display: block;
+    }
+  }
