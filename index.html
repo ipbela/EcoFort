@@ -1,191 +1,191 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    <!DOCTYPE html>
+    <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./ChatBot/script.js" defer></script>
-    <title>Eco Fort</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="./ChatBot/script.js" defer></script>
+        <title>Eco Fort</title>
+    </head>
 
-<body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="/assets/logo.svg" alt="Logo">
-        </div>
-        <div class="nav-links" id="navLinks">
-            <a href="#home">Início</a>
-            <a href="#services">Serviços</a>
-            <a href="#products">Produtos</a>
-            <a href="#about">Sobre Nós</a>
-            <a href="#contact">Contato</a>
-            <img src="/assets/shop.svg" alt="Carrinho" width="35">
-        </div>
-        <div class="menu-icon" onclick="toggleMenu()">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/assets/logo.svg" alt="Logo">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Início</a>
+                <a href="#services">Serviços</a>
+                <a href="#products">Produtos</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#contact">Contato</a>
+                <img src="/assets/shop.svg" alt="Carrinho" width="35">
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
 
-    <header id="home">
-        <div class="text">
-            <div class="title">
-                <h1 class="welcome-text">Bem Vindo a</h1>
-                <div class="items">
-                    <h1 class="welcome-text-green">Eco Forte</h1>
-                    <img src="assets/Folha.svg" alt="Folha">
+        <header id="home">
+            <div class="text">
+                <div class="title">
+                    <h1 class="welcome-text">Bem Vindo a</h1>
+                    <div class="items">
+                        <h1 class="welcome-text-green">Eco Forte</h1>
+                        <img src="assets/Folha.svg" alt="Folha">
+                    </div>
                 </div>
-            </div>
-            <div class="subtitle">
-                <p class="welcome-subtext">
-                    Aqui transformamos lodo em <span class="green">adubo sustentável</span> para um <span
-                        class="green">futuro mais verde</span>.
-                </p>
-            </div>
-            <button class="btn-shop">Comprar Agora</button>
-        </div>
-        <div class="image">
-            <img src="/assets/img-header.svg" alt="">
-        </div>
-    </header>
-
-    <img class="folha-opacity" src="assets/folha-opacity.svg" alt="">
-
-    <div class="servicos" id="services">
-        <h1 class="servicos-title">Porque escolher a Eco Fort?</h1>
-        <img class="servicos-img" src="assets/servicos-items.svg" alt="" width="80%">
-    </div>
-
-    <div class="use">
-        <div class="bg">
-            <h1 class="title-use">Como utilizar?</h1>
-            <p class="subtitle-use">Nosso adubo sustentável, feito a partir de lodo, é fácil de usar e altamente eficaz para melhorar a saúde do seu solo e plantas. Para aplicar, simplesmente espalhe uma camada uniforme do adubo sobre a superfície do solo, em torno das plantas ou na área desejada, utilizando aproximadamente 100-200 gramas por metro quadrado. Em seguida, misture levemente o adubo com a camada superficial do solo usando um ancinho ou enxada, garantindo que ele esteja bem incorporado. Regue a área tratada para ativar os nutrientes e permitir que eles penetrem no solo. Utilize este adubo sustentável em jardins, hortas, vasos e em qualquer espaço verde que necessite de um impulso nutritivo, garantindo um crescimento saudável e vigoroso das suas plantas de forma ecológica e responsável.</p>
-        </div>
-        <img src="/assets/bg-use.svg" alt="" width="100%">
-    </div>
-
-    <div class="products" id="products">
-        <img src="/assets/product.svg" alt="" width="50%">
-        <div class="infos">
-            <h1 class="info-title">Adubo Sustentável</h1>
-            <p class="info-subtitle">Nosso adubo é feito a partir de lodo tratado, rico em nutrientes. Ideal para solo e plantas, promove crescimento saudável e sustentabilidade ambiental.</p>
-            <div class="buttons-shop">
-                <button class="shop">comprar agora</button>
-                <select name="choice" id="" class="choice">
-                    <option value="25">25Kg</option>
-                    <option value="50">50Kg</option>
-                </select>
-            </div>
-        </div>
-    </div>
-
-    <div class="about" id="about">
-        <img src="/assets/top-about.svg" alt="" width="100%">
-        <h1 class="about-title">Sobre Nós</h1>
-        <p class="about-subtitle">Nossa empresa surgiu após uma visita ao Norte de Minas, onde observamos a comunidade ribeirinha e os desafios da estiagem. Ao notarmos o lodo formado durante esse período, surgiu a ideia de combiná-lo com argila para criar uma solução resistente e sustentável.</p>
-
-        <div class="cards">
-            <div class="card-green">
-                <h1 class="card-title-g">Missão</h1>
-                <p class="card-subtitle-g">Contribuir para a construção de um futuro sustentável, fornecendo produtos ecológicos. A transformação de resíduos em recursos uteis para a sociedade, promovendo práticas responsáveis na indústria.</p>
-            </div>
-            <div class="card-white">
-                <h1 class="card-title-w">Visão</h1>
-                <p class="card-subtitle-w">Ser reconhecida globalmente como líder inovador na produção de tijolos sustentáveis.
-                    Queremos ser a escolha preferida de construtores e consumidores que valorizam a qualidade, a eficiência e o compromisso com o meio ambiente.</p>
-            </div>
-            <div class="card-green">
-                <h1 class="card-title-g">Valores</h1>
-                <p class="card-subtitle-g">Comprometemo-nos a operar de maneira ecologicamente responsável, minimizando o impacto ambiental e promovendo a conservação dos recursos naturais.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="avaliations">
-        <img src="/assets/top-avaliations.jpg" alt="" width="100%">
-        <h1 class="avaliations-title">Descubra o que estão dizendo sobre nosso produto!</h1>
-
-        <div class="cards">
-            <div class="card">
-                <img src="/assets/aspas.svg" alt="">
-                <p class="comentary">Adquiri o adubo sustentável de lodo para testar no meu jardim e estou impressionado! Além de promover um crescimento saudável das plantas, a ideia de usar recursos antes desperdiçados é genial. Recomendo!</p>
-            </div>
-            <div class="card">
-                <img src="/assets/aspas.svg" alt="">
-                <p class="comentary">Produto excelente! Comprei o adubo para minha horta e os resultados foram surpreendentes. As plantas cresceram mais rápido e mais fortes. Sem contar que contribuí para a sustentabilidade ambiental. Parabéns pela iniciativa!</p>
-            </div>
-            <div class="card">
-                <img src="/assets/aspas.svg" alt="">
-                <p class="comentary">Estava procurando por alternativas sustentáveis para cuidar do meu jardim e encontrei esse adubo de lodo. A entrega foi rápida e o produto correspondeu às minhas expectativas. Já estou planejando minha próxima compra. Recomendo!</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact" id="contact">
-        <form action="">
-            <div class="inputs">
-                <h1 class="form-title">Entre em contato</h1>
-                <input type="text" name="" id="" placeholder="Digite seu nome" class="inp"><br>
-                <input type="text" name="" id="" placeholder="Digite seu email" class="inp"><br>
-                <textarea name="" id="" placeholder="Digite sua mensagem" class="inp-larger"></textarea><br>
-                <button class="btn-contact">enviar mensagem</button>
-            </div>
-            <div class="social-medias">
-                <div class="link">
-                    <img src="/assets/wpp.svg" alt="">
-                    <p class="info">+55 19 99999-9999</p>
+                <div class="subtitle">
+                    <p class="welcome-subtext">
+                        Aqui transformamos lodo em <span class="green">adubo sustentável</span> para um <span
+                            class="green">futuro mais verde</span>.
+                    </p>
                 </div>
-                <div class="link">
-                    <img src="/assets/youtube.svg" alt="">
-                    <p class="info">Eco Fort</p>
-                </div>
-                <div class="link">
-                    <img src="/assets/insta.svg" alt="">
-                    <p class="info">Eco Fort</p>
-                </div>
-                <div class="link">
-                    <img src="/assets/endereco.svg" alt="">
-                    <p class="info">Rua das Flores, 35. Hortolândia, SP <br>11111-111</p>
-                </div>
+                <button class="btn-shop">Comprar Agora</button>
             </div>
-        </form>
-        <img class="contact-img" src="/assets/bg-contact.svg" alt="" width="100%">
-    </div>
-
-    <button class="chatbot-toggler">
-        <span class="material-symbols-rounded"><img src="/assets/chat.png" alt="Chat" width="30"></span>
-        <span class="material-symbols-outlined"><img src="/assets/close.png" alt="Fechar" width="25"></span>
-      </button>
-      <div class="chatbot">
-        <header>
-          <h2>Chatbot</h2>
-          <span class="close-btn material-symbols-outlined"><img src="/assets/close.png" alt="Fechar" width="25"></span>
+            <div class="image">
+                <img src="/assets/img-header.svg" alt="">
+            </div>
         </header>
-        <ul class="chatbox">
-          <li class="chat incoming">
-            <img src="./assets/robo.png" width="30" alt="Chat">
-            <p>Olá, sou a assistente virtual da EcoFort.</p>
-          </li>
-          <br>
-          <li class="chat incoming">
-            <img src="./assets/robo.png" width="30" alt="">
-            <p>Como eu posso te ajudar hoje?</p>
-          </li>
-        </ul>
-        <div class="chat-input">
-          <textarea placeholder="Entre com uma mensagem..." spellcheck="false" required></textarea>
-          <span id="send-btn" class="material-symbols-rounded"><img src="/assets/send.png" alt="Enviar"></span>
+
+        <img class="folha-opacity" src="assets/folha-opacity.svg" alt="">
+
+        <div class="servicos" id="services">
+            <h1 class="servicos-title">Porque escolher a Eco Fort?</h1>
+            <img class="servicos-img" src="assets/servicos-items.svg" alt="" width="80%">
         </div>
-      </div>
 
-    <footer>
-        <h1 class="footer-title">Eco Fort</h1>
-        <p class="footer-subtitle">© 2024. Desenvolvido por Isabela Pereira Leite</p>
-    </footer>
+        <div class="use">
+            <div class="bg">
+                <h1 class="title-use">Como utilizar?</h1>
+                <p class="subtitle-use">Nosso adubo sustentável, feito a partir de lodo, é fácil de usar e altamente eficaz para melhorar a saúde do seu solo e plantas. Para aplicar, simplesmente espalhe uma camada uniforme do adubo sobre a superfície do solo, em torno das plantas ou na área desejada, utilizando aproximadamente 100-200 gramas por metro quadrado. Em seguida, misture levemente o adubo com a camada superficial do solo usando um ancinho ou enxada, garantindo que ele esteja bem incorporado. Regue a área tratada para ativar os nutrientes e permitir que eles penetrem no solo. Utilize este adubo sustentável em jardins, hortas, vasos e em qualquer espaço verde que necessite de um impulso nutritivo, garantindo um crescimento saudável e vigoroso das suas plantas de forma ecológica e responsável.</p>
+            </div>
+            <img src="/assets/bg-use.svg" alt="" width="100%">
+        </div>
 
-    <script src="script.js"></script>
-</body>
+        <div class="products" id="products">
+            <img src="/assets/product.svg" alt="" width="50%">
+            <div class="infos">
+                <h1 class="info-title">Adubo Sustentável</h1>
+                <p class="info-subtitle">Nosso adubo é feito a partir de lodo tratado, rico em nutrientes. Ideal para solo e plantas, promove crescimento saudável e sustentabilidade ambiental.</p>
+                <div class="buttons-shop">
+                    <button class="shop">comprar agora</button>
+                    <select name="choice" id="" class="choice">
+                        <option value="25">25Kg</option>
+                        <option value="50">50Kg</option>
+                    </select>
+                </div>
+            </div>
+        </div>
 
-</html>
+        <div class="about" id="about">
+            <img src="/assets/top-about.svg" alt="" width="100%">
+            <h1 class="about-title">Sobre Nós</h1>
+            <p class="about-subtitle">Nossa empresa surgiu após uma visita ao Norte de Minas, onde observamos a comunidade ribeirinha e os desafios da estiagem. Ao notarmos o lodo formado durante esse período, surgiu a ideia de combiná-lo com argila para criar uma solução resistente e sustentável.</p>
+
+            <div class="cards">
+                <div class="card-green">
+                    <h1 class="card-title-g">Missão</h1>
+                    <p class="card-subtitle-g">Contribuir para a construção de um futuro sustentável, fornecendo produtos ecológicos. A transformação de resíduos em recursos uteis para a sociedade, promovendo práticas responsáveis na indústria.</p>
+                </div>
+                <div class="card-white">
+                    <h1 class="card-title-w">Visão</h1>
+                    <p class="card-subtitle-w">Ser reconhecida globalmente como líder inovador na produção de tijolos sustentáveis.
+                        Queremos ser a escolha preferida de construtores e consumidores que valorizam a qualidade, a eficiência e o compromisso com o meio ambiente.</p>
+                </div>
+                <div class="card-green">
+                    <h1 class="card-title-g">Valores</h1>
+                    <p class="card-subtitle-g">Comprometemo-nos a operar de maneira ecologicamente responsável, minimizando o impacto ambiental e promovendo a conservação dos recursos naturais.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="avaliations">
+            <img src="/assets/top-avaliations.jpg" alt="" width="100%">
+            <h1 class="avaliations-title">Descubra o que estão dizendo sobre nosso produto!</h1>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="/assets/aspas.svg" alt="">
+                    <p class="comentary">Adquiri o adubo sustentável de lodo para testar no meu jardim e estou impressionado! Além de promover um crescimento saudável das plantas, a ideia de usar recursos antes desperdiçados é genial. Recomendo!</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/aspas.svg" alt="">
+                    <p class="comentary">Produto excelente! Comprei o adubo para minha horta e os resultados foram surpreendentes. As plantas cresceram mais rápido e mais fortes. Sem contar que contribuí para a sustentabilidade ambiental. Parabéns pela iniciativa!</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/aspas.svg" alt="">
+                    <p class="comentary">Estava procurando por alternativas sustentáveis para cuidar do meu jardim e encontrei esse adubo de lodo. A entrega foi rápida e o produto correspondeu às minhas expectativas. Já estou planejando minha próxima compra. Recomendo!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <form action="">
+                <div class="inputs">
+                    <h1 class="form-title">Entre em contato</h1>
+                    <input type="text" name="" id="" placeholder="Digite seu nome" class="inp"><br>
+                    <input type="text" name="" id="" placeholder="Digite seu email" class="inp"><br>
+                    <textarea name="" id="" placeholder="Digite sua mensagem" class="inp-larger"></textarea><br>
+                    <button class="btn-contact">enviar mensagem</button>
+                </div>
+                <div class="social-medias">
+                    <div class="link">
+                        <img src="/assets/wpp.svg" alt="">
+                        <p class="info">+55 19 99999-9999</p>
+                    </div>
+                    <div class="link">
+                        <img src="/assets/youtube.svg" alt="">
+                        <p class="info">Eco Fort</p>
+                    </div>
+                    <div class="link">
+                        <img src="/assets/insta.svg" alt="">
+                        <p class="info">Eco Fort</p>
+                    </div>
+                    <div class="link">
+                        <img src="/assets/endereco.svg" alt="">
+                        <p class="info">Rua das Flores, 35. Hortolândia, SP <br>11111-111</p>
+                    </div>
+                </div>
+            </form>
+            <img class="contact-img" src="/assets/bg-contact.svg" alt="" width="100%">
+        </div>
+
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded"><img src="/assets/chat.png" alt="Chat" width="30"></span>
+            <span class="material-symbols-outlined"><img src="/assets/close.png" alt="Fechar" width="25"></span>
+        </button>
+        <div class="chatbot">
+            <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined"><img src="/assets/close.png" alt="Fechar" width="25"></span>
+            </header>
+            <ul class="chatbox">
+            <li class="chat incoming">
+                <img src="./assets/robo.png" width="30" alt="Chat">
+                <p>Olá, sou a assistente virtual da EcoFort.</p>
+            </li>
+            <br>
+            <li class="chat incoming">
+                <img src="./assets/robo.png" width="30" alt="">
+                <p>Como eu posso te ajudar hoje?</p>
+            </li>
+            </ul>
+            <div class="chat-input">
+            <textarea placeholder="Entre com uma mensagem..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><img src="/assets/send.png" alt="Enviar"></span>
+            </div>
+        </div>
+
+        <footer>
+            <h1 class="footer-title">Eco Fort</h1>
+            <p class="footer-subtitle">© 2024. Desenvolvido por Isabela Pereira Leite</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+    </html>
