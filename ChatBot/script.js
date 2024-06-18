@@ -51,6 +51,7 @@ const generateResponse = (chatElement, userInput) => {
                             responseIndex = index < intent.responses.length ? index : 0;
                             messageElement.textContent = intent.responses[responseIndex];
                                 speakText(intent.responses[responseIndex]);
+                                chatbox.scrollTo(0, chatbox.scrollHeight); // Scroll to bottom
                     } 
                 });
 
@@ -59,6 +60,7 @@ const generateResponse = (chatElement, userInput) => {
                     messageElement.textContent =
                         "Desculpe, não entendi a sua pergunta. Digite novamente!";
                         speakText(messageElement.textContent);
+                        chatbox.scrollTo(0, chatbox.scrollHeight); // Scroll to bottom
                 }
 
                 });
@@ -76,7 +78,7 @@ const handleChat = () => {
 
     // Append the user's message to the chatbox
     chatbox.appendChild(createChatLi(userMessage, "outgoing"));
-    chatbox.scrollTo(0, chatbox.scrollHeight);
+    chatbox.scrollTo(0, chatbox.scrollHeight); // Scroll to bottom
 
     setTimeout(() => {
         // Display "Procurando pela sua resposta..." message while waiting for the response
@@ -85,7 +87,7 @@ const handleChat = () => {
             "incoming"
         );
         chatbox.appendChild(incomingChatLi);
-        chatbox.scrollTo(0, chatbox.scrollHeight);
+        chatbox.scrollTo(0, chatbox.scrollHeight); // Scroll to bottom
         generateResponse(incomingChatLi, userMessage);
     }, 600);
 };

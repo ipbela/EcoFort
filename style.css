@@ -919,7 +919,7 @@ footer{
     right: 35px;
     bottom: 90px;
     width: 420px;
-    height: 730px;
+    height: 600px;
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -964,7 +964,7 @@ footer{
   
   .chatbot .chatbox {
     overflow-y: auto;
-    height: 510px;
+    height: 380px;
     padding: 30px 20px 100px;
     margin-top: -10px;
   }
